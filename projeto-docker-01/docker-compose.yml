@@ -1,8 +1,8 @@
-version: '3'
+version: '3.8'
 services:
   web:
-    image: httpd:lastest
+    image: httpd:latest
     ports:
       - "8080:80"
     volumes:
-      - ./web:/usr/local/apache2/htdocs/
+      - ./app:/usr/local/apache2/htdocs/
