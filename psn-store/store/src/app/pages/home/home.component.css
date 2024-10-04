@@ -1,7 +1,9 @@
 .home__container {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
